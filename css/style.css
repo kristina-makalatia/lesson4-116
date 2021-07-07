@@ -1,0 +1,49 @@
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-mtavruli-bold/css/bpg-nino-mtavruli-bold.min.css");
+.test1 {
+	display: inline-block;
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: red;*/
+	border: 2px solid red;
+
+	/*margin-top: 50px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	margin-left: 30px;*/
+
+	margin: 50px 30px;
+}
+.test2 {
+	display: inline-block;
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: blue;*/
+	border: 2px solid blue;
+
+}
+.container {
+	width: 1170px;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	margin: 0 auto;
+}
+
+/*fonts*/
+.kartuli-absoluturi {
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.kartuli-relatiuri{
+	font-family: 'ALK Life';
+}
+
+.latinuri-absoluturi {
+	font-family: 'Otomanopee One', sans-serif;
+	text-transform: uppercase;
+	line-height: 30px;
+	letter-spacing: 8px;
+	font-style: italic;
+}
+.latinuri-relatiuri {
+	font-family: 'Roboto';
+}
